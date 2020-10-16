@@ -7,7 +7,7 @@ main = ttk.Frame(root)
 main.pack(side="left", fill="both", expand=True)
 
 tk.Label(main, text="Label1 top", bg="red").pack(side="top", expand=True, fill="both")
-tk.Label(main, text="Label1 top", bg="red").pack(side="top", expand=True, fill="both")
+tk.Label(main, text="Label2 top", bg="red").pack(side="top", expand=True, fill="both")
 tk.Label(root, text="Label1 left", bg="green").pack(side="left", expand=True, fill="both")
 
 root.mainloop()
